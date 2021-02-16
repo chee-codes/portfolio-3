@@ -5,9 +5,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.get("/", (req, res) => {
-  res.send("<h1>HELLO THERE</h1>");
-});
+app.use(express.static(path.join(__dirname, "public")));
 
 app.listen(PORT, (err) => {
   if (err) throw err;
