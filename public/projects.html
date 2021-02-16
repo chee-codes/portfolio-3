@@ -1,12 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Portfolio | Projects</title>
   </head>
   <body>
-    <h1>Thise is the page for projects </h1>
+    <div class="container-fluid">
+      <!-- Top Nav -->
+      <section id="header">
+        <nav class="navbar navbar-expand-lg sticky-top">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <!-- End Top Nav -->
+      <!-- Projects -->
+      <!--  -->
+      <div id="portfolio" class="container-fluid">
+        <div class="container port-style">
+          <h2>Projects</h2>
+          <hr />
+          <!-- <div class="row row-cols-1 row-cols-md-3 style-row"></div> -->
+          <div class="row style-row">
+            <div class="col style-col">
+              <div class="accordion" id="accordionExample">
+                <!-- Collapse One -->
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-link btn-block text-left"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#project-1"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Schedule Planner
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div
+                    id="project-1"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body"
+                      ><p
+                        >A calender application that allows users to save events
+                        for each hour of the day. The current day is displayed a
+                        top the screen, as the time blocks are colored coded
+                        based on the time of day (past,present, or future).</p
+                      >
+                      <a
+                        href="https://jbrown827.github.io/schedule-planner/"
+                        class="btn card-btn"
+                        target="_blank"
+                        >Live App</a
+                      >
+                      <a
+                        href="https://github.com/jbrown827/schedule-planner"
+                        class="btn card-btn"
+                        target="_blank"
+                        >Repository</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- End Collapse One -->
+
+                <!-- Collapse Two -->
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-link btn-block text-left collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#project-2"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Project Tantalus
+                      </button>
+                    </h2>
+                  </div>
+                  <div
+                    id="project-2"
+                    class="collapse"
+                    aria-labelledby="headingTwo"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p
+                        >Project Tantalus is a resource to to search for recipes
+                        or restaurants. Restaurants can be searched by city and
+                        cuisine type. Recipes can be searched based on main
+                        ingredient, meal type, and cuisine type. Search
+                        parameters use both textfields and dropdown menus.</p
+                      >
+                      <a
+                        href="https://spenrad.github.io/Project-Tantalus/"
+                        class="btn card-btn"
+                        target="_blank"
+                        >Live App</a
+                      >
+                      <a
+                        href="https://github.com/jbrown827/Project-Tantalus"
+                        class="btn card-btn"
+                        target="_blank"
+                        >Repository</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-link btn-block text-left collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Party-X
+                      </button>
+                    </h2>
+                  </div>
+                  <div
+                    id="collapseThree"
+                    class="collapse"
+                    aria-labelledby="headingThree"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p
+                        >Welcome to the party! This full stack application built
+                        using MVC framework is a major milestone in the
+                        progression of four fledgling developers. Together we
+                        created an application that allows a user to create an
+                        account and login to an account dashboard. The dashboard
+                        will show the user a list of events that they can
+                        attend, view the upcomming events, and create events of
+                        their own.</p
+                      >
+                      <a
+                        href="https://party-x.herokuapp.com/"
+                        class="btn card-btn"
+                        target="_blank"
+                        >Live App</a
+                      >
+                      <a
+                        href="https://github.com/jbrown827/Project-2"
+                        class="btn card-btn"
+                        target="_blank"
+                        >Repository</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Projects -->
+
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!-- Footer Nav -->
+    <nav class="navbar">
+      <div class="footer-div">
+        <span
+          ><a href="https://github.com/jbrown827"
+            ><i class="fab fa-github"></i></a
+        ></span>
+        <span
+          ><a href="https://www.linkedin.com/in/jaja-brown-a42261201/"
+            ><i class="fab fa-linkedin-in"></i></a
+        ></span>
+        <br class="d-md-none" />
+        <span><i class="fa fa-at"></i> jaja.c.brown@gmail.com</span>
+      </div>
+    </nav>
+    <!-- End Footer Nav -->
+    <!-- JavaScript -->
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom Scripts -->
+    <script src="/js/script.js"></script>
   </body>
 </html>
