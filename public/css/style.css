@@ -1,6 +1,7 @@
 /* *  Base Style  * */
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -138,8 +139,15 @@ a:active {
 }
 
 .card {
-  text-align: center;
+  /* text-align: center; */
   background: rgb(235, 231, 231);
+}
+
+.desc-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px auto;
 }
 
 .card-header button {
