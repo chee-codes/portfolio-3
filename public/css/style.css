@@ -8,7 +8,14 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #4f738f;
+  background-image: linear-gradient(
+    to top,
+    #0c3483 0%,
+    #a2b6df 100%,
+    #6b8cce 100%,
+    #a2b6df 100%
+  );
+  min-height: 100vh;
 }
 
 a {
@@ -27,12 +34,8 @@ a:active {
 
 /* *  Navigation Style  * */
 
-.navbar {
-  /* opacity: 1; */
-}
-
 .navbar-nav a {
-  color: lightgrey;
+  color: white;
   margin: 0 30px;
 }
 
@@ -48,7 +51,9 @@ a:active {
 }
 
 .nav-link:hover {
-  color: white;
+  /* color: white; */
+  border-bottom: 1px solid white;
+  margin-top: -1px;
 }
 
 #header .btn {
